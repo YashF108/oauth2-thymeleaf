@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oauth2_demo
+    username: root
+    password: Yash@1998
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            clientId: 594566189252609
+            clientSecret: 8b227f5ac81eea475d3a15fad93d80ec
+          github:
+            clientId: ac7d0823494e314c3d88
+            clientSecret: 138ece22f3e62c2f518a24f5fa2fd02f72603112
+          google:
+            clientId: 418143037831-0t73btha7fme7b7cvln72s0opmo3elmp.apps.googleusercontent.com
+            clientSecret: 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
